@@ -1,0 +1,79 @@
+@import 'mocha.css';
+
+* {
+    font-family: "Fira Sans Semibold", FontAwesome, Roboto, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+}
+
+window#waybar {
+    background: transparent;
+    color: @text;
+}
+
+.modules-left,
+.modules-center,
+.modules-right {
+    background: @surface0;
+    margin: 4px 6px;
+    padding: 0 10px;
+    border-radius: 12px;
+    border: 1px solid @surface1;
+}
+
+#clock,
+#battery,
+#cpu,
+#memory,
+#disk,
+#temperature,
+#backlight,
+#network,
+#pulseaudio,
+#wireplumber,
+#custom-media,
+#tray,
+#mode,
+#idle_inhibitor,
+#scratchpad,
+#power-profiles-daemon,
+#language,
+#mpd {
+    padding: 0 8px;
+}
+
+#workspaces {
+    margin: 0 4px;
+}
+
+#workspaces button {
+    background: transparent;
+    font-size: 16px;
+    color: @subtext1;
+    border: none;
+    padding: 0 6px;
+    border-radius: 8px;
+}
+
+#workspaces button.active {
+    background: @surface2;
+    color: @mauve;
+}
+
+#workspaces button:hover {
+    background: @surface1;
+    color: @text;
+}
+
+#custom-arch {
+    font-size: 18px;
+    color: @blue;
+    margin: 0 4px;
+}
+
+#custom-arch:hover {
+    color: @sapphire;
+}
+
+#window {
+    color: @subtext0;
+}

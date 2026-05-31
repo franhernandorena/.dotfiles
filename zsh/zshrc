@@ -1,0 +1,36 @@
+export CONFIG_PATH=$HOME/.dotfiles
+
+# if system is mac load mac specific zshrc
+if [[ "$OSTYPE" == "darwin"* ]]; then
+  source "$CONFIG_PATH/zsh/zshrc.mac"
+fi
+
+# if system is linux load linux specific zshrc
+if [[ "$OSTYPE" == "linux-gnu"* ]]; then
+  source "$CONFIG_PATH/zsh/zshrc.linux"
+fi
+
+# Load aliases
+source "$CONFIG_PATH/zsh/zshrc.alias"
+
+# opencode
+export PATH=/home/fran/.opencode/bin:$PATH
+
+# bun completions
+[ -s "/home/fran/.bun/_bun" ] && source "/home/fran/.bun/_bun"
+
+# bun
+export BUN_INSTALL="$HOME/.bun"
+export PATH="$BUN_INSTALL/bin:$PATH"
+
+# pnpm
+export PNPM_HOME="/home/fran/.local/share/pnpm"
+case ":$PATH:" in
+  *":$PNPM_HOME/bin:"*) ;;
+  *) export PATH="$PNPM_HOME/bin:$PATH" ;;
+esac
+# pnpm end
+
+
+# Added by Antigravity CLI installer
+export PATH="/home/fran/.local/bin:$PATH"

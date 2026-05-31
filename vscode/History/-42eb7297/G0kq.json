@@ -1,0 +1,13 @@
+{
+  "mcpServers": {
+    "postgres": {
+      "command": "postgres-mcp",
+      "args": [
+        "--access-mode=unrestricted"
+      ],
+      "env": {
+        "DATABASE_URI": "postgresql://app_user:3sP7hPQvbDf6AD@34.62.144.127:5432/ovelix"
+      }
+    }
+  }
+}

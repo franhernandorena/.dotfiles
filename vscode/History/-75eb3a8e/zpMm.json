@@ -1,0 +1,39 @@
+{
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.minimap.enabled": true,
+  "editor.renderWhitespace": "all",
+  "explorer.confirmDelete": false,
+  "explorer.confirmDragAndDrop": false,
+  "files.associations": {
+    "*.graphql": "graphql"
+  },
+  "rubyLsp.rubyExecutablePath": "/home/fran/.local/share/mise/installs/ruby/3.2.8/bin/ruby",
+  "rubyLsp.rubyVersionManager": {
+      "identifier": "mise",
+  },
+  "vsicons.dontShowNewVersionMessage": true,
+  "window.commandCenter": true,
+  "workbench.colorTheme": "Dark Modern",
+  "workbench.iconTheme": "vscode-icons",
+  "workbench.sideBar.location": "right",
+  "extensions.ignoreRecommendations": true,
+  "window.autoDetectColorScheme": true,
+  "security.workspace.trust.untrustedFiles": "open",
+  "git.confirmSync": false,
+  "workbench.productIconTheme": "fluent-icons",
+  "git.enableSmartCommit": true
+}

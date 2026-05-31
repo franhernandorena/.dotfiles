@@ -1,0 +1,138 @@
+@define-color	rosewater  #e8d5d0;
+@define-color	rosewater-rgb  rgb(232, 213, 208);
+@define-color	flamingo  #e0c8c8;
+@define-color	flamingo-rgb  rgb(224, 200, 200);
+@define-color	pink  #d8b8d0;
+@define-color	pink-rgb  rgb(216, 184, 208);
+@define-color	mauve  #909090;
+@define-color	mauve-rgb  rgb(144, 144, 144);
+@define-color	red  #e06c75;
+@define-color	red-rgb  rgb(224, 108, 117);
+@define-color	maroon  #d08080;
+@define-color	maroon-rgb  rgb(208, 128, 128);
+@define-color	peach  #d09060;
+@define-color	peach-rgb  rgb(208, 144, 96);
+@define-color	yellow  #d4b060;
+@define-color	yellow-rgb  rgb(212, 176, 96);
+@define-color	green  #87c08a;
+@define-color	green-rgb  rgb(135, 192, 138);
+@define-color	teal  #78c0b8;
+@define-color	teal-rgb  rgb(120, 192, 184);
+@define-color	sky  #78c8d8;
+@define-color	sky-rgb  rgb(120, 200, 216);
+@define-color	sapphire  #5c9ec7;
+@define-color	sapphire-rgb  rgb(92, 158, 199);
+@define-color	blue  #6a9ecf;
+@define-color	blue-rgb  rgb(106, 158, 207);
+@define-color	lavender  #6488b0;
+@define-color	lavender-rgb  rgb(100, 136, 176);
+@define-color	text  #d0d0d0;
+@define-color	text-rgb  rgb(208, 208, 208);
+@define-color	subtext1  #a8a8a8;
+@define-color	subtext1-rgb  rgb(168, 168, 168);
+@define-color	subtext0  #888888;
+@define-color	subtext0-rgb  rgb(136, 136, 136);
+@define-color	overlay2  #686868;
+@define-color	overlay2-rgb  rgb(104, 104, 104);
+@define-color	overlay1  #585858;
+@define-color	overlay1-rgb  rgb(88, 88, 88);
+@define-color	overlay0  #484848;
+@define-color	overlay0-rgb  rgb(72, 72, 72);
+@define-color	surface2  #383838;
+@define-color	surface2-rgb  rgb(56, 56, 56);
+@define-color	surface1  #252525;
+@define-color	surface1-rgb  rgb(37, 37, 37);
+@define-color	surface0  #1a1a1a;
+@define-color	surface0-rgb  rgb(26, 26, 26);
+@define-color	base  #111111;
+@define-color	base-rgb  rgb(17, 17, 17);
+@define-color	mantle  #0d0d0d;
+@define-color	mantle-rgb  rgb(13, 13, 13);
+@define-color	crust  #0a0a0a;
+@define-color	crust-rgb  rgb(10, 10, 10);
+
+* {
+  font-family: 'CaskaydiaCove Nerd Font', monospace;
+  font-size: 22px;
+}
+
+/* Window */
+window {
+  margin: 0px;
+  padding: 10px;
+  border: 2px solid @lavender;
+  border-radius: 8px;
+  background-color: @base;
+}
+
+/* Inner Box */
+#inner-box {
+  margin: 5px;
+  padding: 10px;
+  border: none;
+  background-color: @base;
+}
+
+/* Outer Box */
+#outer-box {
+  margin: 5px;
+  padding: 10px;
+  border: none;
+  background-color: @base;
+}
+
+/* Scroll */
+#scroll {
+  margin: 0px;
+  padding: 10px;
+  border: none;
+  background-color: @base;
+}
+
+/* Input */
+#input {
+  margin: 5px 20px;
+  padding: 10px;
+  border: none;
+  border-radius: 0.1em;
+  color: @text;
+  background-color: @base;
+}
+
+#input image {
+    border: none;
+    color: @red;
+}
+
+#input:focus {
+  border: 2px solid @red;
+}
+
+/* Text */
+#text {
+  margin: 5px;
+  border: none;
+  color: @text;
+}
+
+#entry {
+  background-color: @base;
+}
+
+#entry arrow {
+  border: none;
+  color: @lavender;
+}
+
+/* Selected Entry */
+#entry:selected {
+  border: 0.11em solid @lavender;
+}
+
+#entry:selected #text {
+  color: @mauve;
+}
+
+#entry:drop(active) {
+  background-color: @surface0;
+}

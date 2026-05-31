@@ -1,0 +1,65 @@
+## Utility Aliases
+alias ~="cd ~"
+alias reload="source ~/.zshrc"
+alias day="hyprctl hyprsunset identity"
+alias night="hyprctl hyprsunset temperature 4500"
+
+# Zellij
+alias z="zellij"
+alias zveinte="z --layout ~/dev/config/dotfiles/zellij/layouts/veinte-rails-linux.kdl"
+alias zm="z --layout ~/dev/config/dotfiles/zellij/layouts/musa-rails-linux.kdl"
+
+# Tools
+alias nm='nvim'
+alias oc='opencode'
+alias cx='codex'
+alias ce='claude'
+alias lg='lazygit'
+
+# Git aliases
+alias gc='git commit'
+alias gb='git branch'
+alias gw='git switch'
+alias gm='git merge'
+alias gn='git checkout -b'
+alias gs='git status'
+alias gp='git push'
+alias gf='git fetch'
+alias gl='git pull'
+
+# Yarn
+alias ys='yarn start'
+alias yi='yarn install'
+alias yt='yarn test'
+alias ytw='yarn test:watch'
+
+# pnpm
+alias pd='pnpm dev'
+alias pi='pnpm install'
+alias pt='pnpm tsc'
+alias pf='pnpm format'
+
+# Docker
+alias drm='docker rm'
+alias drmi='docker rmi'
+alias dps='docker ps'
+alias dpsa='docker ps -a --format "table {{.Image}}\\t{{.Status}}\\t{{.Command}}\\t{{.Ports}}"'
+alias di='docker images'
+alias dia='docker images -a'
+alias drmia='docker rmi $(docker images -aq -f "dangling=true")'
+alias drma='docker rm $(docker ps -a -q)'
+alias dsa='docker stop $(docker ps -a -q)'
+
+# Personal aliases
+alias dotfiles="cd ~/.dotfiles"
+alias disia="cd ~/trabajo/disia"
+alias ovelix="cd ~/trabajo/disia/ovelix"
+alias numetri="cd ~/trabajo/numetri"
+alias aura="cd ~/trabajo/aura"
+alias prompts="cd ~/trabajo/agents_prompts/"
+
+# kubectl
+alias kveinte="kubectl config use-context do-nyc1-veinte-001"
+alias kbeekprod="kubectl config use-context gke_beek-production_us-west1-a_beek-production"
+alias kmusastaging="kubectl config use-context gke_musa-staging_us-west1_musa-staging"
+alias kmusaprod="kubectl config use-context gke_musa-production_us-west1_musa-production"

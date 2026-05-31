@@ -1,0 +1,132 @@
+{
+    "telemetry.sqmId": "",
+    "telemetry.machineId": "73f6c1bde3bec6fe7427fe4fa0e1d8297f2c70e108e9d3a8acd4ee36502e8ef0",
+    "telemetry.devDeviceId": "fb797c80-4085-462c-86b3-e47489167858",
+    "backupWorkspaces": {
+        "workspaces": [],
+        "folders": [
+            {
+                "folderUri": "file:///home/fran/trabajo/disia/ovelix"
+            },
+            {
+                "folderUri": "file:///home/fran/Desktop"
+            },
+            {
+                "folderUri": "file:///home/fran"
+            },
+            {
+                "folderUri": "file:///home/fran/.dotfiles"
+            }
+        ],
+        "emptyWindows": []
+    },
+    "windowControlHeight": 42,
+    "profileAssociations": {
+        "workspaces": {
+            "file:///home/fran/dev/trabajo/disia/ovelix": "__default__profile__",
+            "file:///home/fran/trabajo/numetri/everflow_ingestion": "__default__profile__",
+            "file:///home/fran/trabajo/disia/ovelix": "__default__profile__",
+            "file:///home/fran/trabajo/mds": "__default__profile__",
+            "file:///home/fran/trabajo/clone_db/everflow": "__default__profile__",
+            "file:///home/fran/trabajo/clone_db/flow": "__default__profile__",
+            "file:///home/fran/trabajo/aura": "__default__profile__",
+            "file:///home/fran/Desktop": "__default__profile__",
+            "file:///home/fran": "__default__profile__",
+            "file:///home/fran/.dotfiles": "__default__profile__"
+        },
+        "emptyWindows": {}
+    },
+    "theme": "vs-dark",
+    "themeBackground": "#121314",
+    "windowSplash": {
+        "zoomLevel": 0,
+        "baseTheme": "vs-dark",
+        "colorInfo": {
+            "foreground": "#bfbfbf",
+            "background": "#121314",
+            "editorBackground": "#121314",
+            "titleBarBackground": "#191a1b",
+            "titleBarBorder": "#2a2b2c",
+            "activityBarBackground": "#191a1b",
+            "activityBarBorder": "#2a2b2c",
+            "sideBarBackground": "#191a1b",
+            "sideBarBorder": "#2a2b2c",
+            "statusBarBackground": "#191a1b",
+            "statusBarBorder": "#2a2b2c",
+            "statusBarNoFolderBackground": "#191a1b"
+        },
+        "layoutInfo": {
+            "sideBarSide": "right",
+            "editorPartMinWidth": 220,
+            "titleBarHeight": 35,
+            "activityBarWidth": 48,
+            "sideBarWidth": 197,
+            "auxiliaryBarWidth": 0,
+            "statusBarHeight": 22,
+            "windowBorder": false
+        }
+    },
+    "windowsState": {
+        "lastActiveWindow": {
+            "folder": "file:///home/fran/.dotfiles",
+            "backupPath": "/home/fran/.config/Code - OSS/Backups/87b1bc2a372f4d3f0878a710e8df6833",
+            "uiState": {
+                "mode": 0,
+                "x": 0,
+                "y": 0,
+                "width": 952,
+                "height": 1030,
+                "zoomLevel": 1
+            }
+        },
+        "openedWindows": []
+    },
+    "windowSplashWorkspaceOverride": {
+        "layoutInfo": {
+            "sideBarWidth": 197,
+            "auxiliaryBarWidth": 197,
+            "workspaces": {
+                "75616144aeccc100223ce2358f3b72e0": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                },
+                "1c2f7ada8939b1eecd8cfd09a508f07c": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                },
+                "c04ba5466f2c0d57231ad0a9ae4ea1aa": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                },
+                "e984add3442cb8a18864ff7e57e6c8de": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                },
+                "d023a6e2e902a5c39a7fa62274e5cf0e": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                },
+                "9e3bee707089277b9d30a6ae63d9c608": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                },
+                "767f4993067d9bd710e9a3328643580c": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                },
+                "13738f0efaf1c492de1b2745da372a3a": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                },
+                "1127eb663e357008aea756edffa9943f": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": true
+                },
+                "19a6fec6e7c0b4df59b0a60a796ffab2": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                }
+            }
+        }
+    }
+}
