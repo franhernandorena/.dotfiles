@@ -6,4 +6,4 @@ if [ "$1" = "--version" ]; then
   exit 0
 fi
 
-nohup /usr/share/cursor/cursor --enable-features=UseOzonePlatform --ozone-platform=wayland "$@" >/dev/null 2>&1 &
+nohup "$HOME/.local/bin/Cursor-3.6.31-x86_64.AppImage" --enable-features=UseOzonePlatform --ozone-platform=wayland "$@" >/dev/null 2>&1 &

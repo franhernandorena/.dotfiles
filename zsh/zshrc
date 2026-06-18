@@ -34,3 +34,12 @@ esac
 
 # Added by Antigravity CLI installer
 export PATH="/home/fran/.local/bin:$PATH"
+
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+
+# Token Savior
+export TS_BASH_COMPACT=1
+export TS_BASH_REWRITE=1
+export TOKEN_SAVIOR_PROFILE=optimized

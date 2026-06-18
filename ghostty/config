@@ -4,5 +4,4 @@ background-opacity = 0.75
 confirm-close-surface = false
 window-padding-x = 2
 keybind = shift+enter=text:\n
-mouse-scroll-multiplier = 0.3
 copy-on-select = clipboard

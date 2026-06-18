@@ -35,5 +35,9 @@
   "security.workspace.trust.untrustedFiles": "open",
   "git.confirmSync": false,
   "workbench.productIconTheme": "fluent-icons",
-  "git.enableSmartCommit": true
+  "git.enableSmartCommit": true,
+  "cursor.general.reduceTransparency": true,
+  "cursor.composer.editorConversationDensity": "compact-all-grouped",
+  "git.autofetch": true,
+  "files.autoSave": "afterDelay"
 }

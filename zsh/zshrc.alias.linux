@@ -52,11 +52,11 @@ alias dsa='docker stop $(docker ps -a -q)'
 
 # Personal aliases
 alias dotfiles="cd ~/.dotfiles"
-alias disia="cd ~/trabajo/disia"
-alias ovelix="cd ~/trabajo/disia/ovelix"
-alias numetri="cd ~/trabajo/numetri"
-alias aura="cd ~/trabajo/aura"
-alias prompts="cd ~/trabajo/agents_prompts/"
+alias disia="cd ~/Projects/disia"
+alias ovelix="cd ~/Projects/disia/ovelix"
+alias numetri="cd ~/Projects/numetri"
+alias aura="cd ~/Projects/aura"
+alias prompts="cd ~/Projects/agents_prompts/"
 
 # kubectl
 alias kveinte="kubectl config use-context do-nyc1-veinte-001"
