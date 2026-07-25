@@ -4,17 +4,17 @@ alias reload="source ~/.zshrc"
 alias day="hyprctl hyprsunset identity"
 alias night="hyprctl hyprsunset temperature 4500"
 
-# Zellij
-alias z="zellij"
-alias zveinte="z --layout ~/dev/config/dotfiles/zellij/layouts/veinte-rails-linux.kdl"
-alias zm="z --layout ~/dev/config/dotfiles/zellij/layouts/musa-rails-linux.kdl"
-
 # Tools
 alias nm='nvim'
 alias oc='opencode'
 alias cx='codex'
 alias ce='claude'
 alias lg='lazygit'
+
+# Hermes
+alias hm='hermes'
+alias hmu='hermes update'
+alias hmg='hermes gateway'
 
 # Git aliases
 alias gc='git commit'
@@ -43,7 +43,7 @@ alias pf='pnpm format'
 alias drm='docker rm'
 alias drmi='docker rmi'
 alias dps='docker ps'
-alias dpsa='docker ps -a --format "table {{.Image}}\\t{{.Status}}\\t{{.Command}}\\t{{.Ports}}"'
+alias dpsa='docker ps -a --format "table {{.Image}}\t{{.Status}}\t{{.Command}}\t{{.Ports}}"'
 alias di='docker images'
 alias dia='docker images -a'
 alias drmia='docker rmi $(docker images -aq -f "dangling=true")'
@@ -54,9 +54,10 @@ alias dsa='docker stop $(docker ps -a -q)'
 alias dotfiles="cd ~/.dotfiles"
 alias disia="cd ~/Projects/disia"
 alias ovelix="cd ~/Projects/disia/ovelix"
-alias numetri="cd ~/Projects/numetri"
-alias aura="cd ~/Projects/aura"
-alias prompts="cd ~/Projects/agents_prompts/"
+alias personal="cd ~/Projects/personal"
+alias scripts="cd ~/Projects/scripts"
+alias signlab="cd ~/Projects/signlab_studio"
+alias aura="cd ~/Projects/personal/aura"
 
 # kubectl
 alias kveinte="kubectl config use-context do-nyc1-veinte-001"
